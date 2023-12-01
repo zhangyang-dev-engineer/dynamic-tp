@@ -1,1 +1,12 @@
 1，入口
+DtpConfigurationSelector   implements DeferredImportSelector, Ordered, EnvironmentAware
+需要注入的bean
+1  DtpBeanDefinitionRegistrar  implements ImportBeanDefinitionRegistrar, EnvironmentAware
+
+
+
+2   DtpPostProcessorRegistrar  implements ImportBeanDefinitionRegistrar
+
+3   ApplicationContextHolder  implements ApplicationContextAware 
+
+4   DtpBaseBeanConfiguration
